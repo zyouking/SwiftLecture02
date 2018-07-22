@@ -21,6 +21,25 @@ class ViewController: UIViewController {
         //print(fullName)
         lbName?.text=fullName
         
+        let english = ["A","B","C"]
+        var ints:[Int]=[1,2,3]
+        var floats: Array<Float>=Array(repeating: 0, count: 5)
+        
+        ints.sort()
+        for index in 0..<3{
+            print("\(ints[index])")
+        }
+        
+        for str in english{
+            print(str)
+        }
+        
+        //dictionary
+        let 吧=[1:"A",2:"C",3:"B"]
+        for(a,b) in 吧{
+            print("\( a ):\(b)")
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
